@@ -67,7 +67,7 @@ public class Partie extends JPanel implements ActionListener, KeyListener{
 
 	private Logique logic;
 	
-	public static final int W = 1200, H = 800;
+	public static final int W = Fenêtre.FRAME_WIDTH, H = Fenêtre.FRAME_WIDTH;
 
 
 	

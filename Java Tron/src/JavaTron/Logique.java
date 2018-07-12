@@ -28,8 +28,8 @@ public class Logique {
 	{
 		width = maxWidth;
 		height = maxHeight;
-		colorP1 = new Color(3,3,173);
-		colorP2 = new Color(173, 3, 3 );
+		colorP1 = new Color(0,0,255);
+		colorP2 = new Color(255, 0, 0 );
 		
 		// initialise les 2 joueurs
 
@@ -75,7 +75,7 @@ public class Logique {
 		player1.step();
 		player2.step();
 		/**
-		 * temps d'execution du programme = temps de partie alors on le retourne pour la bdd
+		 * temps d'execution du programme 
 		 */
 		
 		RuntimeMXBean rb = ManagementFactory.getRuntimeMXBean();

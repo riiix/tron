@@ -26,7 +26,7 @@ public class Fenêtre extends JFrame implements ActionListener{
 	public Fenêtre()
 	{
 		setSize(FRAME_WIDTH, FRAME_HEIGHT);
-		setTitle("Tron Java");
+		setTitle("Tron ");
 		setResizable(false);
 		
 		//fermeture de la fenêtre
